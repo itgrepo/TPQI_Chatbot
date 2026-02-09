@@ -1,0 +1,19 @@
+# .gitignore file
+
+# 1. ไฟล์ความลับ (สำคัญที่สุด!)
+serviceAccountKey.json
+.env
+secrets.toml
+
+# 2. ไฟล์ขยะของ Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Environment (โฟลเดอร์ Library ในเครื่องเรา ไม่ต้องเอาขึ้น)
+venv/
+.venv/
+env/
+
+# 4. ไฟล์ System
+.DS_Store
